@@ -6,4 +6,42 @@ body{
 }
 .banner{
     padding: 1.5rem;
+    text-align: center;
+    margin: 1rem;
+    background-color: black;
+    color: white;
+}
+.banner h1{
+    font-size: 3rem;
+    color: white;
+}
+.banner h2{
+    font-size: 2rem;
+    color: white;
+}
+.banner a{
+    font-size: 1.5rem;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border: 1px solid red;
+    color: white;
+    cursor: pointer;
+    margin: 1rem;
+}
+.banner a:hover{
+    color: aqua;
+}
+nav{
+    padding: 0.5rem 2rem;
+}
+.intro{
+    padding: 2rem;
+    text-align: center;
+    background-color: #fff;
+    margin: 1rem;
+    border-radius: 10px;
+}
+.intro h1{
+    font-size: 2rem;
+    color: #333;
 }
