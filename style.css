@@ -7,7 +7,6 @@ body{
 .banner{
     padding: 1.5rem;
     text-align: center;
-    margin: 1rem;
     background-color: black;
     color: white;
 }
@@ -38,10 +37,22 @@ nav{
     padding: 2rem;
     text-align: center;
     background-color: #fff;
-    margin: 1rem;
     border-radius: 10px;
 }
 .intro h1{
     font-size: 2rem;
     color: #333;
+}
+.local-data{
+    text-align: center;
+}
+.map_text{
+    display: inline flex;
+}
+.map_text iframe{
+    width: 350px;
+    height: 350px;
+}
+.map_text p{
+    font-size: 1rem;
 }
