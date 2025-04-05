@@ -2,13 +2,15 @@ body{
     padding: 0%;
     margin: 0%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f4f4f4;
+    background-image: url('./Img/fundo_Intro.jpg');
+    background-size: cover;
+    background-position: center;
 }
 .banner{
     padding: 1.5rem;
     text-align: center;
-    background-color: black;
     color: white;
+    background-color: rgb(40, 40, 40);
 }
 .banner h1{
     font-size: 3rem;
@@ -22,13 +24,13 @@ body{
     font-size: 1.5rem;
     text-decoration: none;
     padding: 0.5rem 1rem;
-    border: 1px solid red;
-    color: white;
+    color: rgb(145, 145, 145);
     cursor: pointer;
     margin: 1rem;
+    font-size: 2rem;
 }
 .banner a:hover{
-    color: aqua;
+    color: rgb(255, 255, 255);
 }
 nav{
     padding: 0.5rem 2rem;
@@ -36,12 +38,16 @@ nav{
 .intro{
     padding: 2rem;
     text-align: center;
-    background-color: #fff;
-    border-radius: 10px;
+
 }
 .intro h1{
     font-size: 2rem;
-    color: #333;
+    color: #ffffff;
+}
+.intro h2{
+    font-size: 1.5rem;
+    color: #ffffff;
+    padding: 1rem 9rem 1rem 9rem;
 }
 .local-data{
     text-align: center;
