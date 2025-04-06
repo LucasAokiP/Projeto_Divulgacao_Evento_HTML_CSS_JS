@@ -87,3 +87,17 @@ nav{
     color: #ffffff;
     padding: 1rem 9rem 1rem 9rem;
 }
+.sobre-nos{
+    padding: 2rem;
+    text-align: center;
+    color: #ffffff;
+}
+.sobre-nos h1{
+    font-size: 2rem;
+    color: #ffffff;
+}
+.sobre-nos p{
+    font-size: 1.5rem;
+    color: #ffffff;
+    padding: 1rem 9rem 1rem 9rem;
+}
