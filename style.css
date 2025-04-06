@@ -49,16 +49,41 @@ nav{
     color: #ffffff;
     padding: 1rem 9rem 1rem 9rem;
 }
-.local-data{
-    text-align: center;
+.local-data {
+    color: #ffffff;
+    text-align: center; 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
 }
-.map_text{
-    display: inline flex;
+
+.map_text {
+    display: flex;
+    flex-direction: column; 
 }
-.map_text iframe{
-    width: 350px;
-    height: 350px;
+
+.map_text iframe {
+    padding-top: 3rem;
+    padding-left: 6rem;
+    width: 500px;
+    height: 500px;
 }
-.map_text p{
+
+.map_text p {
     font-size: 1rem;
+    margin-top: 1rem; /* Espaçamento entre o mapa e o texto */
+}
+.text{
+    padding-left: 10rem;
+    text-align: center;
+    color: #ffffff;
+}
+.text h1{
+    font-size: 2rem;
+    color: #ffffff;
+}
+.text p{
+    font-size: 1.5rem;
+    color: #ffffff;
+    padding: 1rem 9rem 1rem 9rem;
 }
